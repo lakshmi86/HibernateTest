@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://hibernate.sourceforge.net/hibernate-configuration-5.0.dtd"> <hibernate-mapping>
+ <class name="Employee" table="hibernatedb">
+ <id name="id">
+ <generator class="assigned"></generator>
+ </id>
+ <property name="fname" column="FirstName"></property>
+ <property name="lname" column="LastName"></property>
+ </class>
+ </hibernate-mapping>
